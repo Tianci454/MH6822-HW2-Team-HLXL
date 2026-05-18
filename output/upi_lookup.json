@@ -1,0 +1,305 @@
+[
+  {
+    "trade_id": "T001",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Fixed_Float.UPI.V001",
+    "upi_code": "626FE964992A",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T002",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.Corporate.UPI.V001",
+    "upi_code": "1F1A9CA52F87",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T003",
+    "status": "FOUND",
+    "matched_template": "FX.Forward.NDF.UPI.V001",
+    "upi_code": "91D27FC46DE9",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T004",
+    "status": "FOUND",
+    "matched_template": "Equity.Option.SingleName_Put.UPI.V001",
+    "upi_code": "BA1CB662FBCA",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T005",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Fixed_Float.UPI.V001",
+    "upi_code": "AEDA9C1A74CD",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T006",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Basis.UPI.V001",
+    "upi_code": "DBAE6D025BC9",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T007",
+    "status": "FOUND",
+    "matched_template": "Commodities.Swap.SingleName.UPI.V001",
+    "upi_code": "CDB4D2384D7B",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T008",
+    "status": "FOUND",
+    "matched_template": "Rates.Option.Swaption.UPI.V001",
+    "upi_code": "F803FC16B9D0",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T009",
+    "status": "FOUND",
+    "matched_template": "FX.Option.Vanilla.UPI.V001",
+    "upi_code": "2713A2373501",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T010",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.Index.UPI.V001",
+    "upi_code": "6AD27BD576C8",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T011",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.CrossCurrency.UPI.V001",
+    "upi_code": "4E2C36498492",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T012",
+    "status": "FOUND",
+    "matched_template": "Equity.Swap.TotalReturn_SingleIndex.UPI.V001",
+    "upi_code": "5F7B735B3E8F",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T013",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Inflation.UPI.V001",
+    "upi_code": "C5CAE02C2607",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T014",
+    "status": "FOUND",
+    "matched_template": "FX.Swap.Standard.UPI.V001",
+    "upi_code": "634D02002101",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T015",
+    "status": "FOUND",
+    "matched_template": "Rates.Cap_Floor.Cap.UPI.V001",
+    "upi_code": "FAE351BE8B59",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T016",
+    "status": "FOUND",
+    "matched_template": "Equity.Swap.Variance.UPI.V001",
+    "upi_code": "44FC170A0704",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T017",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.Sovereign.UPI.V001",
+    "upi_code": "95F9CF9D871B",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T018",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.OIS.UPI.V001",
+    "upi_code": "15653A722624",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T019",
+    "status": "FOUND",
+    "matched_template": "Commodities.Option.SingleName.UPI.V001",
+    "upi_code": "F30A63288AAA",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T020",
+    "status": "FOUND",
+    "matched_template": "FX.Option.Barrier.UPI.V001",
+    "upi_code": "4DCE054370E8",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T021",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Fixed_Float.UPI.V001",
+    "upi_code": "626FE964992A",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T022",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.ABS.UPI.V001",
+    "upi_code": "470FE5A817DC",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T023",
+    "status": "FOUND",
+    "matched_template": "Equity.Forward.SingleName.UPI.V001",
+    "upi_code": "BAE713175F73",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T024",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Fixed_Float.UPI.V001",
+    "upi_code": "A767EF3B8927",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T025",
+    "status": "FOUND",
+    "matched_template": "FX.Forward.NDF.UPI.V001",
+    "upi_code": "1728E41378A6",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": [
+      "HEURISTIC MATCH: Requested use_case 'Deliverable' differs from matched template 'NDF' (score: 0.14). No exact match found in product library. Consider requesting product definition for FX.Forward.Deliverable.UPI."
+    ]
+  },
+  {
+    "trade_id": "T026",
+    "status": "NO_PRODUCT_DEFINITION",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "Instrument type 'BinaryEventContract' under asset class 'EventContract' has no product definition in the ANNA-DSB UPI library. This reflects the current regulatory classification of prediction and event contracts as outside the OTC derivatives taxonomy in most jurisdictions. Refer to Module 4 for classification analysis.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T027",
+    "status": "NO_PRODUCT_DEFINITION",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "Instrument type 'BinaryEventContract' under asset class 'EventContract' has no product definition in the ANNA-DSB UPI library. This reflects the current regulatory classification of prediction and event contracts as outside the OTC derivatives taxonomy in most jurisdictions. Refer to Module 4 for classification analysis.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T028",
+    "status": "NO_PRODUCT_DEFINITION",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "Instrument type 'BinaryEventContract' under asset class 'EventContract' has no product definition in the ANNA-DSB UPI library. This reflects the current regulatory classification of prediction and event contracts as outside the OTC derivatives taxonomy in most jurisdictions. Refer to Module 4 for classification analysis.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T029",
+    "status": "FOUND",
+    "matched_template": "Rates.Swap.Basis.UPI.V001",
+    "upi_code": "7874BE732891",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T030",
+    "status": "FOUND",
+    "matched_template": "Credit.Swap.Sovereign.UPI.V001",
+    "upi_code": "0F19785E4FAD",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T031",
+    "status": "FOUND",
+    "matched_template": "Equity.Option.SingleName_Put.UPI.V001",
+    "upi_code": "BA1CB662FBCA",
+    "classification_note": null,
+    "validation_errors": [],
+    "warnings": [
+      "HEURISTIC MATCH: Requested use_case 'SingleName_Call' differs from matched template 'SingleName_Put' (score: 0.76). No exact match found in product library. Consider requesting product definition for Equity.Option.SingleName_Call.UPI."
+    ]
+  },
+  {
+    "trade_id": "T032",
+    "status": "NO_PRODUCT_DEFINITION",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "Instrument type 'BinaryEventContract' under asset class 'EventContract' has no product definition in the ANNA-DSB UPI library. This reflects the current regulatory classification of prediction and event contracts as outside the OTC derivatives taxonomy in most jurisdictions. Refer to Module 4 for classification analysis.",
+    "validation_errors": [],
+    "warnings": []
+  },
+  {
+    "trade_id": "T033",
+    "status": "NOT_FOUND",
+    "matched_template": null,
+    "upi_code": null,
+    "classification_note": "No product definition template found for Commodities.Forward.AgricultureFuture",
+    "validation_errors": [
+      "No matching template: Commodities/Forward/AgricultureFuture"
+    ],
+    "warnings": []
+  }
+]

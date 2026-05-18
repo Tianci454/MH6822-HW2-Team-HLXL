@@ -1,0 +1,30 @@
+# Core dependencies
+python-stdnum>=1.9            # LEI validation (ISO 7064 MOD 97-10)
+pycountry>=22.0.0             # ISO 4217 currency codes
+pydantic>=2.0                 # Data validation & typed dataclasses
+
+# JSON & data processing
+orjson>=3.9                   # Fast JSON parsing
+pandas>=2.0                   # Data manipulation & analysis
+openpyxl>=3.10                # Excel support (optional)
+
+# Visualization (Module 5 - Streamlit)
+streamlit>=1.28               # Interactive dashboard
+plotly>=5.17                  # Interactive charts
+seaborn>=0.13                 # Statistical plots (optional)
+matplotlib>=3.7               # Static plots (optional)
+
+# Web framework (if needed for API extensions)
+fastapi>=0.104                # Modern API framework
+uvicorn>=0.24                 # ASGI server
+httpx>=0.25                   # HTTP client
+
+# Development & utilities
+pytest>=7.4                   # Unit testing
+python-dotenv>=1.0            # Environment variables
+requests>=2.31                # HTTP requests
+click>=8.1                    # CLI utilities
+
+# Optional: Report generation
+markdown>=3.5                 # Markdown processing
+pypdf>=3.17                   # PDF handling (for export)

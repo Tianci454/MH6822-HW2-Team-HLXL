@@ -1,0 +1,15 @@
+{
+  "codeset_name": "FpmlRatesReferenceRate",
+  "version": "1.0",
+  "description": "FPML Reference Rates for Interest Rate Products",
+  "entries": [
+    "USD-SOFR-COMPOUND",
+    "USD-LIBOR-BBA",
+    "GBP-LIBOR-BBA",
+    "EUR-EURIBOR-Reuters",
+    "EUR-ESTR",
+    "JPY-TONA-OIS-COMPOUND",
+    "CAD-CORRA",
+    "GBP-RPI"
+  ]
+}

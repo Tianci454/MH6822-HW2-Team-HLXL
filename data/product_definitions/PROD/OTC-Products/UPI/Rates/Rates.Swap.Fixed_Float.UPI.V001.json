@@ -1,0 +1,27 @@
+{
+  "id": "Rates.Swap.Fixed_Float",
+  "name": "Interest Rate Swap - Fixed to Float",
+  "asset_class": "Rates",
+  "instrument_type": "Swap",
+  "use_case": "Fixed_Float",
+  "required_fields": [
+    "notional_currency",
+    "notional_amount",
+    "reference_rate",
+    "execution_timestamp"
+  ],
+  "attributes": {
+    "fixed_leg": {
+      "type": "string",
+      "description": "Fixed leg details"
+    },
+    "floating_leg": {
+      "type": "string",
+      "description": "Floating leg details"
+    }
+  },
+  "codesets": {
+    "currency": "ISO4217",
+    "reference_rate": "FpmlRatesReferenceRate"
+  }
+}

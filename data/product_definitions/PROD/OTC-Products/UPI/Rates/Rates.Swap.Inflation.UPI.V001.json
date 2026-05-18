@@ -1,0 +1,9 @@
+{
+  "id": "Rates.Swap.Inflation",
+  "name": "Inflation Indexed Swap",
+  "asset_class": "Rates",
+  "instrument_type": "Swap",
+  "use_case": "Inflation",
+  "required_fields": ["notional_currency", "notional_amount"],
+  "codesets": {"currency": "ISO4217"}
+}

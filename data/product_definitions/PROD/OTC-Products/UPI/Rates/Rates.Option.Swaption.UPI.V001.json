@@ -1,0 +1,9 @@
+{
+  "id": "Rates.Option.Swaption",
+  "name": "Swaption - Interest Rate Option",
+  "asset_class": "Rates",
+  "instrument_type": "Option",
+  "use_case": "Swaption",
+  "required_fields": ["notional_currency", "notional_amount"],
+  "codesets": {"currency": "ISO4217"}
+}

@@ -1,0 +1,9 @@
+{
+  "id": "Commodities.Option.SingleName",
+  "name": "Commodity Single Name Option",
+  "asset_class": "Commodities",
+  "instrument_type": "Option",
+  "use_case": "SingleName",
+  "required_fields": ["notional_currency", "notional_amount"],
+  "codesets": {"currency": "ISO4217"}
+}

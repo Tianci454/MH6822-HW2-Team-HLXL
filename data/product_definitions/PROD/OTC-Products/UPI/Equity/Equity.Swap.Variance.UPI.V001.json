@@ -1,0 +1,9 @@
+{
+  "id": "Equity.Swap.Variance",
+  "name": "Equity Variance Swap",
+  "asset_class": "Equity",
+  "instrument_type": "Swap",
+  "use_case": "Variance",
+  "required_fields": ["notional_currency", "notional_amount"],
+  "codesets": {"currency": "ISO4217"}
+}

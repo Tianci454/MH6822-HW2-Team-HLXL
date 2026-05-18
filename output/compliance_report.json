@@ -1,0 +1,3824 @@
+[
+  {
+    "trade_id": "T001",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "Fixed_Float",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R1220241219TRD00001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2024-12-19T09:35:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2024-12-21",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2029-12-21",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 50000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R1220241219TRD00001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2024-12-19T09:35:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2024-12-21",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2029-12-21",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 50000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-A123",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 1250000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 26, got 27",
+    "emir_notes": "LEI check digits invalid: expected 26, got 27"
+  },
+  {
+    "trade_id": "T002",
+    "asset_class": "Credit",
+    "instrument_type": "Swap",
+    "use_case": "Corporate",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220250115CDS0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-01-15T14:22:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-01-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2030-01-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 10000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220250115CDS0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-01-15T14:22:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-01-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2030-01-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 10000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-B456",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 320000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": -15000,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20"
+  },
+  {
+    "trade_id": "T003",
+    "asset_class": "FX",
+    "instrument_type": "Forward",
+    "use_case": "NDF",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820250210FWD0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-02-10T11:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-02-12",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2025-08-12",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 20000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820250210FWD0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-02-10T11:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-02-12",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2025-08-12",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 20000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 62, got 08",
+    "emir_notes": "LEI check digits invalid: expected 62, got 08; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T004",
+    "asset_class": "Equity",
+    "instrument_type": "Option",
+    "use_case": "SingleName_Put",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "MISSING_LEI",
+        "valid": false,
+        "error": "LEI must be 20 characters, got 11"
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R1220250301EQ00001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-03-01T15:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-03-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2025-09-19",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 5000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "MISSING_LEI",
+        "valid": false,
+        "error": "LEI must be 20 characters, got 11"
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R1220250301EQ00001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-03-01T15:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-03-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2025-09-19",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 5000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI must be 20 characters, got 11",
+    "emir_notes": "LEI must be 20 characters, got 11; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T005",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "Fixed_Float",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "other_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "2138002TXD6KSZ3V5X2720250115IRS0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+      },
+      "execution_timestamp": {
+        "value": "2025-01-15T09:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-01-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2035-01-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "GBP",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 75000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "other_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "2138002TXD6KSZ3V5X2720250115IRS0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+      },
+      "execution_timestamp": {
+        "value": "2025-01-15T09:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-01-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2035-01-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "GBP",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 75000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-C789",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 2100000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 50000,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 26, got 27; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27",
+    "emir_notes": "LEI check digits invalid: expected 26, got 27; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+  },
+  {
+    "trade_id": "T006",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "Basis",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "other_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": null,
+        "valid": false,
+        "error": "uti is null"
+      },
+      "execution_timestamp": {
+        "value": "2025-04-01T10:15:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-04-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2030-04-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 100000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "other_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": null,
+        "valid": false,
+        "error": "uti is null"
+      },
+      "execution_timestamp": {
+        "value": "2025-04-01T10:15:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-04-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2030-04-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 100000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20; uti is null",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20; uti is null; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T007",
+    "asset_class": "Commodities",
+    "instrument_type": "Swap",
+    "use_case": "SingleName",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "other_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "4R3ZURLYISNNNMHMK60820250506COM0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08"
+      },
+      "execution_timestamp": {
+        "value": "2025-05-06T13:45:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-05-08",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-05-08",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "XAU",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 5000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "other_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "4R3ZURLYISNNNMHMK60820250506COM0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08"
+      },
+      "execution_timestamp": {
+        "value": "2025-05-06T13:45:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-05-08",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-05-08",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "XAU",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 5000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 62, got 08; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08",
+    "emir_notes": "LEI check digits invalid: expected 62, got 08; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T008",
+    "asset_class": "Rates",
+    "instrument_type": "Option",
+    "use_case": "Swaption",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "other_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "2138002TXD6KSZ3V5X2720250301SWN0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+      },
+      "execution_timestamp": {
+        "value": "2025-03-01T08:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-03-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2025-09-01",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 200000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "other_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "2138002TXD6KSZ3V5X2720250301SWN0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+      },
+      "execution_timestamp": {
+        "value": "2025-03-01T08:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-03-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2025-09-01",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 200000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-D012",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 4500000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 26, got 27; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27",
+    "emir_notes": "LEI check digits invalid: expected 26, got 27; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+  },
+  {
+    "trade_id": "T009",
+    "asset_class": "FX",
+    "instrument_type": "Option",
+    "use_case": "Vanilla",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820251010FXO0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-10-10T12:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-10-14",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-01-14",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "INVALID_CCY",
+        "valid": false,
+        "error": "Invalid currency code: INVALID_CCY"
+      },
+      "notional_amount": {
+        "value": 25000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820251010FXO0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-10-10T12:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-10-14",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-01-14",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "INVALID_CCY",
+        "valid": false,
+        "error": "Invalid currency code: INVALID_CCY"
+      },
+      "notional_amount": {
+        "value": 25000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20; notional_currency: Invalid currency code: INVALID_CCY",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20; notional_currency: Invalid currency code: INVALID_CCY; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T010",
+    "asset_class": "Credit",
+    "instrument_type": "Swap",
+    "use_case": "Index",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "5299000J2N45DDNE4Y2820250115CDX0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-01-15T16:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-01-20",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2030-12-20",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 30000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "5299000J2N45DDNE4Y2820250115CDX0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-01-15T16:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-01-20",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2030-12-20",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 30000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-E345",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 900000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 26, got 27",
+    "emir_notes": "LEI check digits invalid: expected 26, got 27"
+  },
+  {
+    "trade_id": "T011",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "CrossCurrency",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220250601XCS0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-06-01T09:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-06-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2028-06-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 100000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220250601XCS0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-06-01T09:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-06-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2028-06-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 100000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-F678",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 3200000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 150000,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 62, got 08",
+    "emir_notes": "LEI check digits invalid: expected 62, got 08"
+  },
+  {
+    "trade_id": "T012",
+    "asset_class": "Equity",
+    "instrument_type": "Swap",
+    "use_case": "TotalReturn_SingleIndex",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "other_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "9695009AXSRNHZE85Y2020250715TRS0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20"
+      },
+      "execution_timestamp": {
+        "value": "2025-07-15T10:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-07-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-07-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 50000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "other_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "9695009AXSRNHZE85Y2020250715TRS0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20"
+      },
+      "execution_timestamp": {
+        "value": "2025-07-15T10:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-07-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-07-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 50000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-G901",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 1750000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20"
+  },
+  {
+    "trade_id": "T013",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "Inflation",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "COMPLIANT",
+    "emir_status": "COMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820250901INF0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-09-01",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-09-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2035-09-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "GBP",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 25000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820250901INF0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-09-01",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-09-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2035-09-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "GBP",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 25000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-H234",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 800000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": null,
+    "emir_notes": null
+  },
+  {
+    "trade_id": "T014",
+    "asset_class": "FX",
+    "instrument_type": "Swap",
+    "use_case": "Standard",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "4R3ZURLYISNNNMHMK60820251120FXS0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08"
+      },
+      "execution_timestamp": {
+        "value": "2025-11-20T14:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-11-22",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-02-22",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "AUD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 40000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "4R3ZURLYISNNNMHMK60820251120FXS0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08"
+      },
+      "execution_timestamp": {
+        "value": "2025-11-20T14:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-11-22",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-02-22",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "AUD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 40000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 62, got 08; LEI check digits invalid: expected 26, got 27; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08",
+    "emir_notes": "LEI check digits invalid: expected 62, got 08; LEI check digits invalid: expected 26, got 27; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T015",
+    "asset_class": "Rates",
+    "instrument_type": "Cap_Floor",
+    "use_case": "Cap",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "other_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "2138002TXD6KSZ3V5X2720250801CAP0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+      },
+      "execution_timestamp": {
+        "value": "2025-08-01T11:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-08-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2028-08-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 150000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "other_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "2138002TXD6KSZ3V5X2720250801CAP0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+      },
+      "execution_timestamp": {
+        "value": "2025-08-01T11:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-08-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2028-08-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 150000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-I567",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 2800000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 26, got 27; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27",
+    "emir_notes": "LEI check digits invalid: expected 26, got 27; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+  },
+  {
+    "trade_id": "T016",
+    "asset_class": "Equity",
+    "instrument_type": "Swap",
+    "use_case": "Variance",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "other_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "9695009AXSRNHZE85Y202025091VARSWP01",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20"
+      },
+      "execution_timestamp": {
+        "value": "2025-09-15T13:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-09-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-03-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 15000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "other_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "9695009AXSRNHZE85Y202025091VARSWP01",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20"
+      },
+      "execution_timestamp": {
+        "value": "2025-09-15T13:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-09-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-03-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 15000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T017",
+    "asset_class": "Credit",
+    "instrument_type": "Swap",
+    "use_case": "Sovereign",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "COMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R1220251105SOV0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-11-05T09:15:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-11-07",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2030-11-07",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 20000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R1220251105SOV0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-11-05T09:15:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-11-07",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2030-11-07",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 20000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": null,
+    "emir_notes": "collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T018",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "OIS",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220251201OIS0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-12-01T08:45:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-12-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-06-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 500000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220251201OIS0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2025-12-01T08:45:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2025-12-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-06-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 500000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-J890",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 5500000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20"
+  },
+  {
+    "trade_id": "T019",
+    "asset_class": "Commodities",
+    "instrument_type": "Option",
+    "use_case": "SingleName",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "other_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "4R3ZURLYISNNNMHMK60820260115OPT0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08"
+      },
+      "execution_timestamp": {
+        "value": "2026-01-15T10:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-01-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-07-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 10000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "other_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "4R3ZURLYISNNNMHMK60820260115OPT0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08"
+      },
+      "execution_timestamp": {
+        "value": "2026-01-15T10:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-01-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-07-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 10000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 62, got 08; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08",
+    "emir_notes": "LEI check digits invalid: expected 62, got 08; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 62, got 08; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T020",
+    "asset_class": "FX",
+    "instrument_type": "Option",
+    "use_case": "Barrier",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "2138002TXD6KSZ3V5X2720260210BRR0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+      },
+      "execution_timestamp": {
+        "value": "2026-02-10T15:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-02-12",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-08-12",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 30000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "2138002TXD6KSZ3V5X2720260210BRR0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27"
+      },
+      "execution_timestamp": {
+        "value": "2026-02-10T15:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-02-12",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-08-12",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 30000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 26, got 27; LEI check digits invalid: expected 62, got 08; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27",
+    "emir_notes": "LEI check digits invalid: expected 26, got 27; LEI check digits invalid: expected 62, got 08; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 26, got 27; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T021",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "Fixed_Float",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "COMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R12202603010001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-03-01T09:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-03-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "9999-99-99",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 100000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R12202603010001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-03-01T09:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-03-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "9999-99-99",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 100000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": null,
+    "emir_notes": "collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T022",
+    "asset_class": "Credit",
+    "instrument_type": "Swap",
+    "use_case": "ABS",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "other_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "9695009AXSRNHZE85Y2020260415ABS0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20"
+      },
+      "execution_timestamp": {
+        "value": "2026-04-15T11:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-04-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2031-04-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 15000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "other_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "uti": {
+        "value": "9695009AXSRNHZE85Y2020260415ABS0001",
+        "valid": false,
+        "error": "UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20"
+      },
+      "execution_timestamp": {
+        "value": "2026-04-15T11:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-04-17",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2031-04-17",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 15000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-K123",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 600000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20; UTI namespace (first 20 chars) invalid LEI: LEI check digits invalid: expected 38, got 20"
+  },
+  {
+    "trade_id": "T023",
+    "asset_class": "Equity",
+    "instrument_type": "Forward",
+    "use_case": "SingleName",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820260501EQF0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-05-01T10:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-05-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-11-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "SGD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 8000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820260501EQF0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-05-01T10:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-05-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-11-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "SGD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 8000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 26, got 27",
+    "emir_notes": "LEI check digits invalid: expected 26, got 27; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T024",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "Fixed_Float",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "5299000J2N45DDNE4Y2820260601IRS9999",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-06-01T14:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-06-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2036-06-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "CAD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 60000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "5299000J2N45DDNE4Y2820260601IRS9999",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-06-01T14:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-06-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2036-06-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "CAD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 60000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": true,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-L456",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 1900000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 62, got 08",
+    "emir_notes": "LEI check digits invalid: expected 62, got 08"
+  },
+  {
+    "trade_id": "T025",
+    "asset_class": "FX",
+    "instrument_type": "Forward",
+    "use_case": "Deliverable",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220260701FXF0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-07-01T16:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-07-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-10-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 45000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220260701FXF0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-07-01T16:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-07-03",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2026-10-03",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "EUR",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 45000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T026",
+    "asset_class": "EventContract",
+    "instrument_type": "BinaryEventContract",
+    "use_case": "PoliticalOutcome",
+    "classification_flag": "NOVEL_INSTRUMENT_NO_TAXONOMY",
+    "cftc_status": "CONDITIONAL",
+    "emir_status": "NOT_APPLICABLE",
+    "cftc_field_validations": {},
+    "emir_field_validations": {},
+    "cftc_notes": "EventContract on CFTC-regulated DCM (Kalshi). Classification pending CFTC ANPR 91 FR 12516 (Prediction Markets). Currently flagged CONDITIONAL pending rulemaking.",
+    "emir_notes": "EventContract classified as illegal gambling under EU national law (Germany: Gl\u00fccksspielstaatsvertrag, Gl\u00fcStV 2021). Not within scope of EMIR derivatives reporting."
+  },
+  {
+    "trade_id": "T027",
+    "asset_class": "EventContract",
+    "instrument_type": "BinaryEventContract",
+    "use_case": "MacroeconomicOutcome",
+    "classification_flag": "NOVEL_INSTRUMENT_NO_TAXONOMY",
+    "cftc_status": "NOT_APPLICABLE",
+    "emir_status": "NOT_APPLICABLE",
+    "cftc_field_validations": {},
+    "emir_field_validations": {},
+    "cftc_notes": "EventContract not on CFTC-regulated platform. Not within current scope of CFTC reporting requirements.",
+    "emir_notes": "EventContract classified as illegal gambling under EU national law (Germany: Gl\u00fccksspielstaatsvertrag, Gl\u00fcStV 2021). Not within scope of EMIR derivatives reporting."
+  },
+  {
+    "trade_id": "T028",
+    "asset_class": "EventContract",
+    "instrument_type": "BinaryEventContract",
+    "use_case": "RegulatoryDecisionOutcome",
+    "classification_flag": "NOVEL_INSTRUMENT_NO_TAXONOMY",
+    "cftc_status": "CONDITIONAL",
+    "emir_status": "NOT_APPLICABLE",
+    "cftc_field_validations": {},
+    "emir_field_validations": {},
+    "cftc_notes": "EventContract on CFTC-regulated DCM (Kalshi). Classification pending CFTC ANPR 91 FR 12516 (Prediction Markets). Currently flagged CONDITIONAL pending rulemaking.",
+    "emir_notes": "EventContract classified as illegal gambling under EU national law (Germany: Gl\u00fccksspielstaatsvertrag, Gl\u00fcStV 2021). Not within scope of EMIR derivatives reporting."
+  },
+  {
+    "trade_id": "T029",
+    "asset_class": "Rates",
+    "instrument_type": "Swap",
+    "use_case": "Basis",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R1220260801BAS0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-08-01T10:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-08-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2031-08-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "JPY",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 10000000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5493001KJTIIGC8Y1R12",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "2138002TXD6KSZ3V5X27",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 26, got 27"
+      },
+      "uti": {
+        "value": "5493001KJTIIGC8Y1R1220260801BAS0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-08-01T10:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-08-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2031-08-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "JPY",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 10000000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": "PORT-M789",
+        "valid": true,
+        "error": null
+      },
+      "initial_margin_posted": {
+        "value": 450000,
+        "valid": true,
+        "error": null
+      },
+      "variation_margin_posted": {
+        "value": 0,
+        "valid": true,
+        "error": null
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 26, got 27",
+    "emir_notes": "LEI check digits invalid: expected 26, got 27"
+  },
+  {
+    "trade_id": "T030",
+    "asset_class": "Credit",
+    "instrument_type": "Swap",
+    "use_case": "Sovereign",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": null,
+        "valid": false,
+        "error": "other_counterparty_lei is null"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220260901SOV0002",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-09-01T14:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-09-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2031-09-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "CHF",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 50000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "VGRQXHF3J8VDLUA7XE92",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": null,
+        "valid": false,
+        "error": "other_counterparty_lei is null"
+      },
+      "uti": {
+        "value": "VGRQXHF3J8VDLUA7XE9220260901SOV0002",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-09-01T14:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-09-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2031-09-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "CHF",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 50000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "other_counterparty_lei is null",
+    "emir_notes": "other_counterparty_lei is null; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T031",
+    "asset_class": "Equity",
+    "instrument_type": "Option",
+    "use_case": "SingleName_Call",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820261001EQO0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-10-01T11:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-10-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2027-01-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 12000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "1VUV7VQFKUOQSJ21A208",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "4R3ZURLYISNNNMHMK608",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 62, got 08"
+      },
+      "uti": {
+        "value": "1VUV7VQFKUOQSJ21A20820261001EQO0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-10-01T11:00:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-10-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2027-01-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 12000000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 62, got 08",
+    "emir_notes": "LEI check digits invalid: expected 62, got 08; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  },
+  {
+    "trade_id": "T032",
+    "asset_class": "EventContract",
+    "instrument_type": "BinaryEventContract",
+    "use_case": "SportsOutcome",
+    "classification_flag": "NOVEL_INSTRUMENT_NO_TAXONOMY",
+    "cftc_status": "CONDITIONAL",
+    "emir_status": "NOT_APPLICABLE",
+    "cftc_field_validations": {},
+    "emir_field_validations": {},
+    "cftc_notes": "EventContract on CFTC-regulated DCM (Kalshi). Classification pending CFTC ANPR 91 FR 12516 (Prediction Markets). Currently flagged CONDITIONAL pending rulemaking.",
+    "emir_notes": "EventContract classified as illegal gambling under EU national law (Germany: Gl\u00fccksspielstaatsvertrag, Gl\u00fcStV 2021). Not within scope of EMIR derivatives reporting."
+  },
+  {
+    "trade_id": "T033",
+    "asset_class": "Commodities",
+    "instrument_type": "Forward",
+    "use_case": "AgricultureFuture",
+    "classification_flag": "CONVENTIONAL_DERIVATIVE",
+    "cftc_status": "NONCOMPLIANT",
+    "emir_status": "NONCOMPLIANT",
+    "cftc_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "5299000J2N45DDNE4Y2820261101AGR0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-11-01T09:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-11-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2027-03-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 500000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      }
+    },
+    "emir_field_validations": {
+      "reporting_counterparty_lei": {
+        "value": "5299000J2N45DDNE4Y28",
+        "valid": true,
+        "error": null
+      },
+      "other_counterparty_lei": {
+        "value": "9695009AXSRNHZE85Y20",
+        "valid": false,
+        "error": "LEI check digits invalid: expected 38, got 20"
+      },
+      "uti": {
+        "value": "5299000J2N45DDNE4Y2820261101AGR0001",
+        "valid": true,
+        "error": null
+      },
+      "execution_timestamp": {
+        "value": "2026-11-01T09:30:00Z",
+        "valid": true,
+        "error": null
+      },
+      "effective_date": {
+        "value": "2026-11-05",
+        "valid": true,
+        "error": null
+      },
+      "maturity_date": {
+        "value": "2027-03-05",
+        "valid": true,
+        "error": null
+      },
+      "notional_currency": {
+        "value": "USD",
+        "valid": true,
+        "error": null
+      },
+      "notional_amount": {
+        "value": 500000,
+        "valid": true,
+        "error": null
+      },
+      "action_type": {
+        "value": "NEW",
+        "valid": true,
+        "error": null
+      },
+      "cleared": {
+        "value": false,
+        "valid": true,
+        "error": null
+      },
+      "collateral_portfolio_code": {
+        "value": null,
+        "valid": false,
+        "error": "collateral_portfolio_code is required by EMIR"
+      },
+      "initial_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "initial_margin_posted is required by EMIR (0 is acceptable)"
+      },
+      "variation_margin_posted": {
+        "value": null,
+        "valid": false,
+        "error": "variation_margin_posted is required by EMIR (0 is acceptable)"
+      }
+    },
+    "cftc_notes": "LEI check digits invalid: expected 38, got 20",
+    "emir_notes": "LEI check digits invalid: expected 38, got 20; collateral_portfolio_code is required by EMIR; initial_margin_posted is required by EMIR; variation_margin_posted is required by EMIR"
+  }
+]

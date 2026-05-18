@@ -1,0 +1,9 @@
+{
+  "id": "FX.Forward.NDF",
+  "name": "FX Forward - Non-Deliverable",
+  "asset_class": "FX",
+  "instrument_type": "Forward",
+  "use_case": "NDF",
+  "required_fields": ["notional_currency", "notional_amount"],
+  "codesets": {"currency": "ISO4217"}
+}
