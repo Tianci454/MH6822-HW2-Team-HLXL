@@ -2,10 +2,10 @@
 ## NTU MH6822 RegTech Homework 2
 
 ### Team Composition
-#### Liu Pengcheng   G2507672G      PENGCHEN001@e.ntu.edu.sg
-#### Xu Siwei        G2505299A      S250021@e.ntu.edu.sg
-#### Li Chenguang    G2506830L      CHENGUAN001@e.ntu.edu.sg
-#### Huang Tianci    G2505258A      TIANCI001@e.ntu.edu.sg
+##### Liu Pengcheng   G2507672G      PENGCHEN001@e.ntu.edu.sg
+##### Xu Siwei        G2505299A      S250021@e.ntu.edu.sg
+##### Li Chenguang    G2506830L      CHENGUAN001@e.ntu.edu.sg
+##### Huang Tianci    G2505258A      TIANCI001@e.ntu.edu.sg
 
 ### 📊 Project Overview
 
